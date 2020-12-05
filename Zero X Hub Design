@@ -58,8 +58,6 @@ Open.ZIndex = 2
 Open.Image = "rbxassetid://3926307971"
 Open.ImageRectOffset = Vector2.new(164, 484)
 Open.ImageRectSize = Vector2.new(36, 36)
-Open.Active = true
-Open.Draggable = true
 
 Close.Name = "Close"
 Close.Parent = ZeroXHub
@@ -71,8 +69,6 @@ Close.ZIndex = 2
 Close.Image = "rbxassetid://3926307971"
 Close.ImageRectOffset = Vector2.new(324, 524)
 Close.ImageRectSize = Vector2.new(36, 36)
-Close.Active = true
-Close.Draggable = true
 
 Frame2.Name = "Frame2"
 Frame2.Parent = ZeroXHub
@@ -99,8 +95,6 @@ Functions.Font = Enum.Font.SourceSans
 Functions.Text = "Functions"
 Functions.TextColor3 = Color3.fromRGB(255, 255, 255)
 Functions.TextSize = 25.000
-Functions.Active = true
-Functions.Draggable = true
 
 Off.Name = "Off"
 Off.Parent = Frame2
@@ -112,8 +106,6 @@ Off.ZIndex = 2
 Off.Image = "rbxassetid://3926305904"
 Off.ImageRectOffset = Vector2.new(124, 924)
 Off.ImageRectSize = Vector2.new(36, 36)
-Off.Active = true
-Off.Draggable = true
 
 On.Name = "On"
 On.Parent = Frame2
@@ -124,8 +116,6 @@ On.ZIndex = 2
 On.Image = "rbxassetid://3926305904"
 On.ImageRectOffset = Vector2.new(924, 884)
 On.ImageRectSize = Vector2.new(36, 36)
-On.Active = true
-On.Draggable = true
 
 Functions2.Name = "Functions2"
 Functions2.Parent = ZeroXHub
@@ -152,8 +142,6 @@ Delet.Font = Enum.Font.SourceSans
 Delet.Text = "Delet"
 Delet.TextColor3 = Color3.fromRGB(255, 255, 255)
 Delet.TextSize = 25.000
-Delet.Active = true
-Delet.Draggable = true
 
 Select1.Name = "Select1"
 Select1.Parent = Functions2
@@ -164,8 +152,6 @@ Select1.ZIndex = 2
 Select1.Image = "rbxassetid://3926305904"
 Select1.ImageRectOffset = Vector2.new(324, 964)
 Select1.ImageRectSize = Vector2.new(36, 36)
-Select1.Active = true
-Select1.Draggable = true
 
 Select2.Name = "Select2"
 Select2.Parent = Functions2
@@ -177,8 +163,6 @@ Select2.ZIndex = 2
 Select2.Image = "rbxassetid://3926307971"
 Select2.ImageRectOffset = Vector2.new(644, 44)
 Select2.ImageRectSize = Vector2.new(36, 36)
-Select2.Active = true
-Select2.Draggable = true
 
 -- Scripts:
 
