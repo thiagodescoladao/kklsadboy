@@ -1,0 +1,259 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ZeroXHub = Instance.new("ScreenGui")
+local Menu = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local Open = Instance.new("ImageButton")
+local Close = Instance.new("ImageButton")
+local Frame2 = Instance.new("Frame")
+local UIGradient_2 = Instance.new("UIGradient")
+local Functions = Instance.new("TextLabel")
+local Off = Instance.new("ImageButton")
+local On = Instance.new("ImageButton")
+local Functions2 = Instance.new("Frame")
+local UIGradient_3 = Instance.new("UIGradient")
+local Delet = Instance.new("TextLabel")
+local Select1 = Instance.new("ImageButton")
+local Select2 = Instance.new("ImageButton")
+
+--Properties:
+
+ZeroXHub.Name = "ZeroXHub"
+ZeroXHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Menu.Name = "Menu"
+Menu.Parent = ZeroXHub
+Menu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Menu.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Menu.BorderSizePixel = 0
+Menu.Position = UDim2.new(0, 0, 0.0834914595, 0)
+Menu.Size = UDim2.new(0, 193, 0, 41)
+Menu.Active = true
+Menu.Draggable = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(102, 45, 113)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(197, 66, 110))}
+UIGradient.Parent = Menu
+
+TextLabel.Parent = Menu
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 135, 0, 41)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Zero X Hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 25.000
+TextLabel.Active = true
+TextLabel.Draggable = true
+
+Open.Name = "Open"
+Open.Parent = ZeroXHub
+Open.BackgroundTransparency = 1.000
+Open.Position = UDim2.new(0.175796896, 0, 0.0816812068, 0)
+Open.Size = UDim2.new(0, 42, 0, 41)
+Open.ZIndex = 2
+Open.Image = "rbxassetid://3926307971"
+Open.ImageRectOffset = Vector2.new(164, 484)
+Open.ImageRectSize = Vector2.new(36, 36)
+Open.Active = true
+Open.Draggable = true
+
+Close.Name = "Close"
+Close.Parent = ZeroXHub
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.175600916, 0, 0.0815787464, 0)
+Close.Size = UDim2.new(0, 42, 0, 41)
+Close.Visible = false
+Close.ZIndex = 2
+Close.Image = "rbxassetid://3926307971"
+Close.ImageRectOffset = Vector2.new(324, 524)
+Close.ImageRectSize = Vector2.new(36, 36)
+Close.Active = true
+Close.Draggable = true
+
+Frame2.Name = "Frame2"
+Frame2.Parent = ZeroXHub
+Frame2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame2.BorderSizePixel = 0
+Frame2.Position = UDim2.new(-0.000574380159, 0, 0.157726571, 0)
+Frame2.Size = UDim2.new(0, 193, 0, 248)
+Frame2.Visible = false
+Frame2.Active = true
+Frame2.Draggable = true
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(73, 32, 81)), ColorSequenceKeypoint.new(0.30, Color3.fromRGB(102, 45, 113)), ColorSequenceKeypoint.new(0.82, Color3.fromRGB(186, 63, 110)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(212, 70, 120))}
+UIGradient_2.Parent = Frame2
+
+Functions.Name = "Functions"
+Functions.Parent = Frame2
+Functions.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Functions.BackgroundTransparency = 1.000
+Functions.BorderSizePixel = 0
+Functions.Position = UDim2.new(0.0253566299, 0, 0.0583491772, 0)
+Functions.Size = UDim2.new(0, 171, 0, 50)
+Functions.Font = Enum.Font.SourceSans
+Functions.Text = "Functions"
+Functions.TextColor3 = Color3.fromRGB(255, 255, 255)
+Functions.TextSize = 25.000
+Functions.Active = true
+Functions.Draggable = true
+
+Off.Name = "Off"
+Off.Parent = Frame2
+Off.BackgroundTransparency = 1.000
+Off.Position = UDim2.new(0.0725388825, 0, 0.100806475, 0)
+Off.Size = UDim2.new(0, 29, 0, 28)
+Off.Visible = false
+Off.ZIndex = 2
+Off.Image = "rbxassetid://3926305904"
+Off.ImageRectOffset = Vector2.new(124, 924)
+Off.ImageRectSize = Vector2.new(36, 36)
+Off.Active = true
+Off.Draggable = true
+
+On.Name = "On"
+On.Parent = Frame2
+On.BackgroundTransparency = 1.000
+On.Position = UDim2.new(0.0725388303, 0, 0.10080646, 0)
+On.Size = UDim2.new(0, 29, 0, 28)
+On.ZIndex = 2
+On.Image = "rbxassetid://3926305904"
+On.ImageRectOffset = Vector2.new(924, 884)
+On.ImageRectSize = Vector2.new(36, 36)
+On.Active = true
+On.Draggable = true
+
+Functions2.Name = "Functions2"
+Functions2.Parent = ZeroXHub
+Functions2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Functions2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Functions2.BorderSizePixel = 0
+Functions2.Position = UDim2.new(0.224805146, 0, 0.159476295, 0)
+Functions2.Size = UDim2.new(0, 193, 0, 248)
+Functions2.Visible = false
+Functions2.Active = true
+Functions2.Draggable = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(212, 70, 120)), ColorSequenceKeypoint.new(0.30, Color3.fromRGB(186, 64, 110)), ColorSequenceKeypoint.new(0.82, Color3.fromRGB(102, 45, 113)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(73, 32, 81))}
+UIGradient_3.Parent = Functions2
+
+Delet.Name = "Delet"
+Delet.Parent = Functions2
+Delet.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Delet.BackgroundTransparency = 1.000
+Delet.BorderSizePixel = 0
+Delet.Position = UDim2.new(0.0253566299, 0, 0.0583491772, 0)
+Delet.Size = UDim2.new(0, 171, 0, 50)
+Delet.Font = Enum.Font.SourceSans
+Delet.Text = "Delet"
+Delet.TextColor3 = Color3.fromRGB(255, 255, 255)
+Delet.TextSize = 25.000
+Delet.Active = true
+Delet.Draggable = true
+
+Select1.Name = "Select1"
+Select1.Parent = Functions2
+Select1.BackgroundTransparency = 1.000
+Select1.Position = UDim2.new(0.140000001, 0, 0.101000004, 0)
+Select1.Size = UDim2.new(0, 29, 0, 28)
+Select1.ZIndex = 2
+Select1.Image = "rbxassetid://3926305904"
+Select1.ImageRectOffset = Vector2.new(324, 964)
+Select1.ImageRectSize = Vector2.new(36, 36)
+Select1.Active = true
+Select1.Draggable = true
+
+Select2.Name = "Select2"
+Select2.Parent = Functions2
+Select2.BackgroundTransparency = 1.000
+Select2.Position = UDim2.new(0.139896378, 0, 0.100806445, 0)
+Select2.Size = UDim2.new(0, 29, 0, 28)
+Select2.Visible = false
+Select2.ZIndex = 2
+Select2.Image = "rbxassetid://3926307971"
+Select2.ImageRectOffset = Vector2.new(644, 44)
+Select2.ImageRectSize = Vector2.new(36, 36)
+Select2.Active = true
+Select2.Draggable = true
+
+-- Scripts:
+
+local function LGEP_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	function clicked()
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Open.Visible = false
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Close.Visible = true
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Frame2.Visible = true
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Select1.Visible = true
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.functions.Visible = true
+	end
+	
+	script.Parent.MouseButton1Down:connect(clicked)
+end
+coroutine.wrap(LGEP_fake_script)()
+local function AVVIIQ_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	function clicked()
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Open.Visible = true
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Functions2.Visible = false
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Frame2.Visible = false
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Close.Visible = false
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Select1.Visible = false
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.functions.Visible = false
+	end
+	
+	script.Parent.MouseButton1Down:connect(clicked)
+end
+coroutine.wrap(AVVIIQ_fake_script)()
+local function WHPDGUH_fake_script() -- Off.LocalScript 
+	local script = Instance.new('LocalScript', Off)
+
+	function clicked()
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Frame2.Off.Visible = false
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Functions2.Visible = false
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Frame2.On.Visible = true
+	end
+	
+	script.Parent.MouseButton1Down:connect(clicked)
+end
+coroutine.wrap(WHPDGUH_fake_script)()
+local function MVBI_fake_script() -- On.LocalScript 
+	local script = Instance.new('LocalScript', On)
+
+	function clicked()
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Frame2.Off.Visible = true
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Functions2.Visible = true
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Frame2.On.Visible = false
+	end
+	
+	script.Parent.MouseButton1Down:connect(clicked)
+end
+coroutine.wrap(MVBI_fake_script)()
+local function MXKA_fake_script() -- Select1.LocalScript 
+	local script = Instance.new('LocalScript', Select1)
+
+	function clicked()
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Functions2.Select1.Visible = false
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Functions2.Select2.Visible = true
+	end
+	
+	script.Parent.MouseButton1Down:connect(clicked)
+end
+coroutine.wrap(MXKA_fake_script)()
+local function GXPOC_fake_script() -- Select2.LocalScript 
+	local script = Instance.new('LocalScript', Select2)
+
+	function clicked()
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Functions2.Select2.Visible = false
+		game.Players.LocalPlayer.PlayerGui.ZeroXHub.Functions2.Select1.Visible = true
+	end
+	
+	script.Parent.MouseButton1Down:connect(clicked)
+end
+coroutine.wrap(GXPOC_fake_script)()
