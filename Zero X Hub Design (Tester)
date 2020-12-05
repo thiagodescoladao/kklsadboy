@@ -46,8 +46,6 @@ TextLabel.Font = Enum.Font.SourceSans
 TextLabel.Text = "Zero X Hub"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 25.000
-TextLabel.Active = true
-TextLabel.Draggable = true
 
 Open.Name = "Open"
 Open.Parent = ZeroXHub
